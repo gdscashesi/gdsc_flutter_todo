@@ -1,6 +1,6 @@
 
 
-import 'package:dsc/ui/screens/home_screen/widgets/task_tile.dart';
+import 'package:dsc/ui/screens/home_screen/widgets/task_card.dart';
 import "package:flutter/material.dart";
 
 /*dart*/
@@ -52,10 +52,10 @@ class _HomeScreenState extends State<HomeScreen> {
               children: const [
 
 
-                TaskTile(),
+                TaskCard(),
 
 
-                TaskTile(),
+                TaskCard(),
 
 
               ],
@@ -65,9 +65,9 @@ class _HomeScreenState extends State<HomeScreen> {
               children: const [
 
 
-                TaskTile(),
+                TaskCard(),
 
-                TaskTile()
+                TaskCard()
 
 
 

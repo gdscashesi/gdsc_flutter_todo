@@ -5,8 +5,8 @@ import 'package:dsc/ui/screens/task_screen/tasks_screen.dart';
 import 'package:flutter/material.dart';
 
 
-class TaskTile extends StatelessWidget {
-  const TaskTile({Key? key}) : super(key: key);
+class TaskCard extends StatelessWidget {
+  const TaskCard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
